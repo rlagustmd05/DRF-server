@@ -176,7 +176,7 @@ SIMPLE_JWT = {
     'REFRESH_TOKEN_LIFETIME': timedelta(days=7),
 }
 
-ALLOWED_HOST = [
+ALLOWED_HOSTS = [
     'http://127.0.0.1:8000',
     '124.0.0.1',
 ]
