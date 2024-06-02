@@ -179,17 +179,17 @@ SIMPLE_JWT = {
 ALLOWED_HOSTS = [
     'http://127.0.0.1:8000',
     '124.0.0.1',
-    'port-0-drf-server-ss7z32llwun1pv1.sel5.cloudtype.app/',
+    'port-0-drf-server-ss7z32llwun1pv1.sel5.cloudtype.app',
 ]
 
 CORS_ALLOW_CREDENTIALS = True
 CORS_ALLOWED_ORIGINS = [
-    'https://port-0-drf-server-ss7z32llwun1pv1.sel5.cloudtype.app/',
+    'https://port-0-drf-server-ss7z32llwun1pv1.sel5.cloudtype.app',
     'http://127.0.0.1:8000',
 ]
 
 CSRF_TRUSTED_ORIGINS = [
     'http://localhost:3000',
     'http://127.0.0.1:8000',
-    'https://port-0-drf-server-ss7z32llwun1pv1.sel5.cloudtype.app/',
+    'https://port-0-drf-server-ss7z32llwun1pv1.sel5.cloudtype.app',
 ]
