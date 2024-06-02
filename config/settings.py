@@ -174,7 +174,11 @@ SIMPLE_JWT = {
     'REFRESH_TOKEN_LIFETIME': timedelta(days=7),
 }
 
-ALLOWED_HOSTS = ['*']
+ALLOWED_HOSTS = [
+    'http://127.0.0.1:8000',
+    '127.0.0.1',
+    'port-0-drf-server-ss7z32llwun1pv1.sel5.cloudtype.app',
+]
 
 CORS_ALLOW_CREDENTIALS = True
 CORS_ALLOWED_ORIGINS = [
